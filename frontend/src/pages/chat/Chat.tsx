@@ -595,7 +595,10 @@ const Chat = () => {
                                     Hello, I'm ChatLC, an AI chatbot at the 
                                     <a href="https://www.qc.cuny.edu/academics/qclc/" target="_blank">Learning Commons</a> 
                                     of CUNY Queens College. I can answer LC-related questions.
-                                    </h2>
+                                </h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>
+                                    ChatLC is powered by OpenAI's GPT models and securely deployed on CUNY's Azure cloud.
+                                </h2>
                                 <h2 className={styles.chatEmptyStateSubtitle}>How can I help you today?</h2>
                             </Stack>
                         ) : (
